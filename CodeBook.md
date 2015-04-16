@@ -12,4 +12,6 @@ The first step of the process was to download the data locally.  This allowed me
 
 The first requested is:
 "Merges the training and the test sets to create one data set"
+Within the zip file there will be two folders labeled "train" and "test". In each folder (respectively) there are files labeled, "X_train.txt", "y_train.txt" (in the "train" folder), and"X_test.txt", "y_test.txt" (in the "test" folder)
+
 
