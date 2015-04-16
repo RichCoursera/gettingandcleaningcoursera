@@ -1,6 +1,6 @@
 ## Code book for Getting and Cleaning data - Course Project
 This codebook is to discribe the steps being taken to complete the "Getting and Cleaning data" course
-#A little information about the data
+A little information about the data
 This project will be working with the data sets from the "Human Activity Recognition Using Smartphones Dataset
 Version 1.0"
 
