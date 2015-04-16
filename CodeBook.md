@@ -4,7 +4,11 @@ A little information about the data
 This project will be working with the data sets from the "Human Activity Recognition Using Smartphones Dataset
 Version 1.0"
 
-The prerequisit is as follows:
+Assumptions:
+You have downloaded the needed files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+You have also extracted the files from the downloaded zip file.
+
+The prerequisit for the assignment is as follows:
 "You should create one R script called run_analysis.R that does the following"
 You will find the R script in the same directory in which you found this codebook.
 
