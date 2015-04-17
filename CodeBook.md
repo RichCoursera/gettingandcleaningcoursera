@@ -7,6 +7,7 @@ Version 1.0"
 Assumptions:
 You have downloaded the needed files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 You have also extracted the files from the downloaded zip file.
+NOTE: Due to my knowledge of R programming (which is novice) some of the more simpler tasks (i.e. which data from the combined data set should be used to determine the average of the mean() and std() ) to determine which rows of data to use were done manually.  
 
 The prerequisit for the assignment is as follows:
 "You should create one R script called run_analysis.R that does the following"
