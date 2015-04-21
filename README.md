@@ -31,6 +31,7 @@ This project consists of the following:
 Please review the "README" file associated to the experiement which is located in the main directory of the extracted zip file.
 
 Running the R program:
+
 To product the data for this course project, you will need to download the zip file and extract it, and download the "run_anlysis.R" program.
 The program will produce a "tidy" data set file (tidydata.txt) in your working directory.
 
