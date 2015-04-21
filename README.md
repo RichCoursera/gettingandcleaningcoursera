@@ -36,7 +36,7 @@ To product the data for this course project, you will need to download the zip f
 The program will produce a "tidy" data set file (tidydata.txt) in your working directory.
 
 ====================================================
-Origins for the project
+Origins for the course project
 ====================================================
 The data for this effort, and information about the experiment comes from the following location:
 "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
