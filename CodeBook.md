@@ -22,8 +22,8 @@ Within the zip file there will be two folders labeled "train" and "test". In eac
 I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
 
 Sample of my tidy data set (tidydata.txt)
-Subject           Activity				Body acceleration on the x axis mean()
-      1             LAYING				0.2215982
+Subject           Activity                      Body acceleration on the x axis mean()
+      1             LAYING                      0.2215982
       1            SITTING				0.2612376
       1           STANDING				0.2789176
       1            WALKING				0.2773308
