@@ -12,7 +12,13 @@ The course project consists of following five (5) steps, they are:
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 The interpretation of these steps is dictated by the person generating the results.
 
-The end result is to produce 2 types of files.  The first file (conclusion of Step 4) is the merging of several data files, to produce a "grid-like" representation of the data, with only the mean() and std() values. The file will include column labels and conversion of the Activity Number (see code book for more information). The second file is to produce "tidy data" from the first file by creating an average of all of the observations for the mean() and std() columns.
+The end result is to produce 2 types of files.  The first file (conclusion of Step 4) is the merging of several data files, to produce a "grid-like" representation of the data, with only the mean() and std() values. The file will include column labels and conversion of the Activity Number (see code book for more information). The second file generates a tidy data text file containing an average of all of the observations for the mean() and std() columns that meets the principles of"
+  •	Each variable you measure should be in one column
+  •	Each different observation of that variable should be in a different row
+  •	There should be one table for each “kind” of variable
+  •	Include a row at the top of each file with variable names
+  •	Make variable names human readable
+  •	In general, data should be saved in one file per table
 
 The end resulting data created for this project (from step 5) is a tidt data set, showing the X, Y, and Z  mean and standard deviation average values collected from the original experiment.
 
