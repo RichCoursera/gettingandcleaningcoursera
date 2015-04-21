@@ -22,6 +22,8 @@ The end result is to produce 2 types of files.  The first file (conclusion of St
 
 The end resulting data created for this project (from step 5) is a tidt data set, showing the X, Y, and Z  mean and standard deviation average values collected from the original experiment.
 
+The CodeBook.md file contains further information about the tidy data set created from step 5.
+
 This project consists of the following:
  - The file downloaded from the following URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
  - And the downloaded file unzipped in your working directory
