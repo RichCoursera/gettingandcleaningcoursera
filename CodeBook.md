@@ -1,3 +1,4 @@
+```
 DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE VIEW THIS DOCUMENT IN ITS "RAW" FORM. The example data will be in the correct format.
 
 # Code book for Getting and Cleaning data - Course Project
@@ -25,8 +26,8 @@ I created columns for the Subject, Activity, and the various mean() and std() co
 
 I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
 
-```
-Here is a sample of the tidy data set created by running the "run_analysis.R" code:
+
+Here is a sample of the tidy data set (first 3 columns and 10 rows) created by running the "run_analysis.R" code:
 Sample of my tidy data set "tidydata.txt"
 
 Subject Activity           Body acceleration on the x axis mean()
@@ -42,7 +43,18 @@ Subject Activity           Body acceleration on the x axis mean()
 2       WALKING             0.2764266
 
 The core source of information about this data comes from the original experiment. I would highly recommend reading its README and CodeBook documents.
+
+The measurements (e.g. "Body acceleration on the x axis mean...") are the value of OHOT?? - need to finish
+Here are the column names and their description:
+*Subject - This is the number of the person who did the related activities.  Their names were not given in the original data set.
+*Activity - There were six (6) activities which were performed by each subject
+*Body acceleration on the x,y,z axis mean() - is the mean of all of the observations collected relative to the subject and the activity performed.
+*Body acceleration on the x,y,z axis std() - is the standard deviation of all of the observations collected relative to the subject and the activity performed.
+
+***Pleae note that further information about this data is contained within the "features.txt" file located within the original downloaded dataset
+
+
+
+Body acceleration on the x,y,z axis std() - 
+
 ```
-
-
-
