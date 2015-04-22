@@ -34,3 +34,5 @@ Subject Activity           Body acceleration on the x axis mean()
 2       STANDING            0.2779115
 2       WALKING             0.2764266
 
+The core source of information about this data comes from the original experiment. I would highly recommend reading its README and CodeBook documents.
+
