@@ -19,10 +19,15 @@ The first step requested is:
 "Merges the training and the test sets to create one data set"
 Within the zip file there will be two folders labeled "train" and "test". In each folder (respectively) there are files labeled, "X_train.txt", "y_train.txt" (in the "train" folder), and"X_test.txt", "y_test.txt" (in the "test" folder)
 
+I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity for each mean() and std() columns.
+
 I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
 
 Here is a sample of the tidy data set created by running the "run_analysis.R" code:
-Sample of my tidy data set (tidydata.txt)
+Sample of my tidy data set "tidydata.txt"
+Subject   Activity          Body acceleration on the x axis mean()
+1        LAYING             0.2215982
+
 
 Subject Activity           Body acceleration on the x axis mean()
 1       LAYING	            0.2215982
