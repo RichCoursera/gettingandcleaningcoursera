@@ -1,5 +1,5 @@
 ```
-DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE VIEW THIS DOCUMENT IN ITS "RAW" FORM. The example data will be in the correct format.
+DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE FEEL FREE TO VIEW THIS DOCUMENT IN ITS "RAW" FORM. The example data will be in the correct format.
 
 # Code book for Getting and Cleaning data - Course Project
 This codebook is to discribe the steps being taken to complete the "Getting and Cleaning data" course.
