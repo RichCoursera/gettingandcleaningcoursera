@@ -1,3 +1,5 @@
+DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE VIEW THIS DOCUMENT IN ITS "RAW" FORM. The example data will be in the correct format.
+
 # Code book for Getting and Cleaning data - Course Project
 This codebook is to discribe the steps being taken to complete the "Getting and Cleaning data" course.
 A little information about the data.
@@ -25,9 +27,6 @@ I created columns for the Subject, Activity, and the various mean() and std() co
 
 Here is a sample of the tidy data set created by running the "run_analysis.R" code:
 Sample of my tidy data set "tidydata.txt"
-Subject   Activity          Body acceleration on the x axis mean()
-1        LAYING             0.2215982
-
 
 Subject Activity           Body acceleration on the x axis mean()
 1       LAYING	            0.2215982
