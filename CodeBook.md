@@ -25,6 +25,7 @@ I created columns for the Subject, Activity, and the various mean() and std() co
 
 I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
 
+```
 Here is a sample of the tidy data set created by running the "run_analysis.R" code:
 Sample of my tidy data set "tidydata.txt"
 
@@ -41,4 +42,7 @@ Subject Activity           Body acceleration on the x axis mean()
 2       WALKING             0.2764266
 
 The core source of information about this data comes from the original experiment. I would highly recommend reading its README and CodeBook documents.
+```
+
+
 
