@@ -32,7 +32,7 @@ You will need to download the "run_analysis.R" and run it through R. At the comp
 
 ## FINISH FROM HERE
 ##Descriptions of the variables from the raw data and in the tidy data set
-raw data information:
+###raw data information:
 As the data created in the tidy data set came from the original source, I thought it perttainent to include the description of the "features.txt" file within this document.
 This comes directly from the "features.txt" document:
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
