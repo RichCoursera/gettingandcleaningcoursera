@@ -7,8 +7,6 @@ output: tidydata.txt - space delimited
 
 ---
 
-Code Book example taken from: "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
-
 ## Project description
 The project assignment was to take data from an experiment which had several data sets, follow several steps in manipulating the data sets into a cohesive dataset, and finally create a "tidy" data set.
 
@@ -88,12 +86,70 @@ Some information on the variable including:
  
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
  
-##Sources
-Sources you used if any, otherise leave out.
  
 ##Annex
 If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
 
+### 
+######Body acceleration on the x axis mean()
+######Body acceleration on the y axis mean()
+######Body acceleration on the z axis mean()
+######Body acceleration on the x axis std()
+######Body acceleration on the y axis std()
+######Body acceleration on the z axis std()
+###
+######Gravity acceleration on the x axis mean()
+######Gravity acceleration on the y axis mean()
+######Gravity acceleration on the z axis mean()
+######Gravity acceleration on the x axis std()
+######Gravity acceleration on the y axis std()
+######Gravity acceleration on the z axis std()
+###
+######Jerk of the body on the x axis mean()
+######Jerk of the body on the y axis mean()
+######Jerk of the body on the z axis mean()
+######Jerk of the body on the x axis std()
+######Jerk of the body on the y axis std()
+######Jerk of the body on the z axis std()
+###
+######Body angular volecity on the x axis mean()
+######Body angular volecity on the y axis mean()
+######Body angular volecity on the z axis mean()
+######Body angular volecity on the x axis std()
+######Body angular volecity on the y axis std()
+######Body angular volecity on the z axis std()
+###
+######Angular volecity jerk of the body on the x axis mean()
+######Angular volecity jerk of the body on the y axis mean()
+######Angular volecity jerk of the body on the z axis mean()
+######Angular volecity jerk of the body on the x axis std()
+######Angular volecity jerk of the body on the y axis std()
+######Angular volecity jerk of the body on the z axis std()
+###
+######Frequency domain on the body acceleration on the x axis mean()
+######Frequency domain on the body acceleration on the y axis mean()
+######Frequency domain on the body acceleration on the z axis mean()
+######Frequency domain on the body acceleration on the x axis std()
+######Frequency domain on the body acceleration on the y axis std()
+######Frequency domain on the body acceleration on the z axis std()
+###
+######Frequency domain of the angular volecity jerk of the body on the x axis mean()
+######Frequency domain of the angular volecity jerk of the body on the y axis mean()
+######Frequency domain of the angular volecity jerk of the body on the z axis mean()
+######Frequency domain of the angular volecity jerk of the body on the x axis std()
+######Frequency domain of the angular volecity jerk of the body on the y axis std()
+######Frequency domain of the angular volecity jerk of the body on the z axis std()
+###
+######Frequency domain of the body angular volecity on the x axis mean()
+######Frequency domain of the body angular volecity on the y axis mean()
+######Frequency domain of the body angular volecity on the z axis mean()
+######Frequency domain of the body angular volecity on the x axis std()
+######Frequency domain of the body angular volecity on the y axis std()
+######Frequency domain of the body angular volecity on the z axis std()
+
+##Sources
+1. "features.txt" from the zip file of the raw data. - "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+2. For the code book template - "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
 
 
 Assumptions:
@@ -115,23 +171,7 @@ I created columns for the Subject, Activity, and the various mean() and std() co
 
 I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
 
-```
-Here is a sample of the tidy data set (first 3 columns and 10 rows) created by running the "run_analysis.R" code:
-Sample of my tidy data set "tidydata.txt"
 
-Subject Activity           Body acceleration on the x axis mean()
-1       LAYING	            0.2215982
-1       SITTING	            0.2612376
-1       STANDING            0.2789176
-1       WALKING             0.2773308
-1       WALKING_DOWNSTAIRS  0.2891883
-1       WALKING_UPSTAIRS    0.2554617
-2       LAYING              0.2813734
-2       SITTING             0.2770874
-2       STANDING            0.2779115
-2       WALKING             0.2764266
-
-The core source of information about this data comes from the original experiment. I would highly recommend reading its README and CodeBook documents.
 
 The measurements (e.g. "Body acceleration on the x axis mean...") are the value of OHOT?? - need to finish
 Here are the column names and their description:
