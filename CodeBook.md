@@ -9,14 +9,14 @@ output: tidydata.txt - space delimited
 Code Book example taken from: "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
 
 ## Project description
-The project assignment was to take data from en experiment which had several data sets, and create a "tidy" data set, following several steps.
+The project assignment was to take data from an experiment which had several data sets, follow several steps in manipulating the data sets into a cohesive dataset, and finally create a "tidy" data set.
 
 ##Collection of raw data
 The data was extracted from a zip file located at: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 The zip file contains data of an experiment which consisted of 30 subjects doing 6 different activities, and by using a mobile devices, capturing various data on the subjects movements.
 
 ##Additional note on the raw data.
-The experiment captured activity attributes such as the bodies acceleration, the gravity acceleration, jerk motion, along with the linear acceleration and angular volicty.
+The experiment captured activity attributes such as the bodies acceleration, the gravity acceleration, jerk motion, along with the linear acceleration and angular volicty. The raw data was broken into several data sets
 
 
 
