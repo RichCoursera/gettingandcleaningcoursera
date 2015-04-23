@@ -7,6 +7,7 @@ author: RichCoursera
 date: 4/20/15
 output: tidydata.txt - space delimited
 Code Book example taken from: "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
+---
 
 ## Project description
 The project assignment was to take data from an experiment which had several data sets, follow several steps in manipulating the data sets into a cohesive dataset, and finally create a "tidy" data set.
