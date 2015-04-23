@@ -1,4 +1,4 @@
-```
+
 DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE FEEL FREE TO VIEW THIS DOCUMENT IN ITS "RAW" FORM.
 
 ---
@@ -49,7 +49,7 @@ I created columns for the Subject, Activity, and the various mean() and std() co
 
 I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
 
-
+```
 Here is a sample of the tidy data set (first 3 columns and 10 rows) created by running the "run_analysis.R" code:
 Sample of my tidy data set "tidydata.txt"
 
