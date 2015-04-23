@@ -1,6 +1,25 @@
 ```
 DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE FEEL FREE TO VIEW THIS DOCUMENT IN ITS "RAW" FORM.
 
+---
+title: Code book for Getting and Cleaning data - Course Project
+author: RichCoursera
+date: 4/20/15
+output: tidydata.txt - space delimited
+Code Book example taken from: "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
+
+## Project description
+The project assignment was to take data from en experiment which had several data sets, and create a "tidy" data set, following several steps.
+
+##Collection of raw data
+The data was extracted from a zip file located at: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+The zip file contains data of an experiment which consisted of 30 subjects doing 6 different activities, and by using a mobile devices, capturing various data on the subjects movements.
+
+##Additional note on the raw data.
+The experiment captured activity attributes such as the bodies acceleration, the gravity acceleration, jerk motion, along with the linear acceleration and angular volicty.
+
+
+
 # Code book for Getting and Cleaning data - Course Project
 This codebook is to discribe the steps being taken to complete the "Getting and Cleaning data" course.
 A little information about the data.
