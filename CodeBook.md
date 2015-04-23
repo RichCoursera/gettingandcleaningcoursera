@@ -45,10 +45,26 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 "
 tiday data information:
-The tiday data set created contains the average of the mean and standard deviation measures for each subject in each activity. The data set produces a 
+The tiday data set created contains the average of the mean and standard deviation measures for each subject in each activity. The data set produces a 180 x 50 dimensional data set. 
 General description of the file including:
-  - Dimensions of the dataset
-  - Summary of the data (below)
+
+##Summary of the data
+```
+Here is a sample of the tidy data set (first 3 columns and 10 rows) created by running the "run_analysis.R" code:
+Sample of my tidy data set "tidydata.txt"
+
+Subject Activity           Body acceleration on the x axis mean()
+1       LAYING	            0.2215982
+1       SITTING	            0.2612376
+1       STANDING            0.2789176
+1       WALKING             0.2773308
+1       WALKING_DOWNSTAIRS  0.2891883
+1       WALKING_UPSTAIRS    0.2554617
+2       LAYING              0.2813734
+2       SITTING             0.2770874
+2       STANDING            0.2779115
+2       WALKING             0.2764266
+```
   - Variable present in the data set
 
 ###Variable 1 (repeat this section for all variables in the dataset)
@@ -61,9 +77,6 @@ Some information on the variable including:
  - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
  
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
- 
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
  
 ##Sources
 Sources you used if any, otherise leave out.
