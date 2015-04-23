@@ -1,6 +1,3 @@
-
-DUE TO CHALLENGES WITH THE GITHUB EDITING< PLEASE FEEL FREE TO VIEW THIS DOCUMENT IN ITS "RAW" FORM.
-
 ---
 ```
 title: Code book for Getting and Cleaning data - Course Project
