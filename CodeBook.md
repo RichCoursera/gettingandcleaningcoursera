@@ -29,6 +29,34 @@ and unzip the file which will create a structure of several folders and files.
 Once the file structure is in place, you must set your working directory to the directory containing the "train" and "test" directories.
 You will need to download the "run_analysis.R" and run it through R. At the completion of running the program, a file called, "tidydata.txt" will be created in your working directory.
 
+## FINISH FROM HERE
+##Descriptions of the variables in the tidy data set
+General description of the file including:
+  - Dimensions of the dataset
+  - Summary of the data (below)
+  - Variable present in the data set
+
+###Variable 1 (repeat this section for all variables in the dataset)
+Short description of what the variable describes.
+ 
+Some information on the variable including:
+ - Class of the variable
+ - Unique values/levels of the variable
+ - Unit of measurement (if no unit of measurement list this as well)
+ - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
+ 
+(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+ 
+####Notes on variable 1:
+If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
+ 
+##Sources
+Sources you used if any, otherise leave out.
+ 
+##Annex
+If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+
+
 
 Assumptions:
 You have downloaded the needed files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
