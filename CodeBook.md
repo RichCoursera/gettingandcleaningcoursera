@@ -67,6 +67,16 @@ Subject Activity           Body acceleration on the x axis mean()
 ```
   - Variable present in the data set
 
+###Variable 1 (Subject)
+Subject - This is the ID of the subject who performed the related activities.  It is an integer value.  There were 30 subjects performing the activities
+
+Some information on the variable including:
+ - Class of the variable
+ - Unique values/levels of the variable
+ - Unit of measurement (if no unit of measurement list this as well)
+ - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels).
+ 
+ 
 ###Variable 1 (repeat this section for all variables in the dataset)
 Short description of what the variable describes.
  
