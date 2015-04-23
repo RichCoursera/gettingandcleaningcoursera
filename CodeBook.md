@@ -1,10 +1,10 @@
 ---
-```
+
 title: Code book for Getting and Cleaning data - Course Project
 author: RichCoursera
 date: 4/20/15
 output: tidydata.txt - space delimited
-```
+
 ---
 
 Code Book example taken from: "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
