@@ -86,10 +86,6 @@ Some information on the variable including:
  
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
  
- 
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
-
 ### 
 ######Body acceleration on the x axis mean()
 ######Body acceleration on the y axis mean()
@@ -150,6 +146,9 @@ If you used any code in the codebook that had the echo=FALSE attribute post this
 ##Sources
 1. "features.txt" from the zip file of the raw data. - "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 2. For the code book template - "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
+
+##Annex
+If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
 
 
 Assumptions:
