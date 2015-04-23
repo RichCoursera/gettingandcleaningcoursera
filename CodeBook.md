@@ -18,13 +18,17 @@ The zip file contains data of an experiment which consisted of 30 subjects doing
 ##Additional note on the raw data.
 The experiment captured activity attributes such as the bodies acceleration, the gravity acceleration, jerk motion, along with the linear acceleration and angular volicty. The raw data was broken into several data sets
 
+##Cleaning the data
+Though the experiment data sets were in several files, there was a distinct relationship between the files.  In order to determine how the data was to be put together, the files needed to be read into R, examine the data attributes (i.e. the dimensions of the data) and put the data together.
+The "run_analysis.R" script will read in all of the needed data, bind the data into a meaningful structure, remove unnecessary columns of data (as stated by the assignment steps), assign column names, then create an average of the respective observations to create a tidy data set. 
 
+##Creating the tidy data file
+In order to run the "run_analysis.R" script you will need the following:
+downloaded the needed files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+and unzip the file which will create a structure of several folders and files.
+Once the file structure is in place, you must set your working directory to the directory containing the "train" and "test" directories.
+You will need to download the "run_analysis.R" and run it through R. At the completion of running the program, a file called, "tidydata.txt" will be created in your working directory.
 
-# Code book for Getting and Cleaning data - Course Project
-This codebook is to discribe the steps being taken to complete the "Getting and Cleaning data" course.
-A little information about the data.
-This project will be working with the data sets from the "Human Activity Recognition Using Smartphones Dataset
-Version 1.0"
 
 Assumptions:
 You have downloaded the needed files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
