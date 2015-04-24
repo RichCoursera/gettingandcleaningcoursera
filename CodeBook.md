@@ -65,16 +65,24 @@ Subject Activity           Body acceleration on the x axis mean()
 ```
   - Variable present in the data set
 
-###Variable 1 (Subject)
-Subject - This is the ID of the subject who performed the related activities.  It is an integer value.  There were 30 subjects performing the activities
+###Column 1 (Subject)
+Subject - This is the ID of the subject who performed the related activities.  It is an integer value.  There were 30 subjects performing the activities.
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels).
- 
- 
+###Column 2 (Activity)
+Activity - Six (6) activities were preformed by each subject several times. The activities consisted of: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying.
+
+### Remaining Variables 
+The remaining variables contains the data relative to the subject and activity performed, and can be broken down by the following:
+
+mean() and std() - This is the mean and standard deviation of the accumulative information for the specific activity per subject.
+
+x axis, y axis, and z axis - this is used to denote the signals from the X, Y, and Z direction of the measurement.
+
+Body and Gravity acceleration - The subjects body acceleration captured from the devices accelerometer, and separated into body and gravity.
+
+
+
+
 ###Variable 1 (repeat this section for all variables in the dataset)
 Short description of what the variable describes.
  
@@ -83,8 +91,6 @@ Some information on the variable including:
  - Unique values/levels of the variable
  - Unit of measurement (if no unit of measurement list this as well)
  - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
- 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
  
 ### 
 ######Body acceleration on the x axis mean()
@@ -108,19 +114,19 @@ Some information on the variable including:
 ######Jerk of the body on the y axis std()
 ######Jerk of the body on the z axis std()
 ###
-######Body angular volecity on the x axis mean()
-######Body angular volecity on the y axis mean()
-######Body angular volecity on the z axis mean()
-######Body angular volecity on the x axis std()
-######Body angular volecity on the y axis std()
-######Body angular volecity on the z axis std()
+######Body angular velocity on the x axis mean()
+######Body angular velocity on the y axis mean()
+######Body angular velocity on the z axis mean()
+######Body angular velocity on the x axis std()
+######Body angular velocity on the y axis std()
+######Body angular velocity on the z axis std()
 ###
-######Angular volecity jerk of the body on the x axis mean()
-######Angular volecity jerk of the body on the y axis mean()
-######Angular volecity jerk of the body on the z axis mean()
-######Angular volecity jerk of the body on the x axis std()
-######Angular volecity jerk of the body on the y axis std()
-######Angular volecity jerk of the body on the z axis std()
+######Angular velocity jerk of the body on the x axis mean()
+######Angular velocity jerk of the body on the y axis mean()
+######Angular velocity jerk of the body on the z axis mean()
+######Angular velocity jerk of the body on the x axis std()
+######Angular velocity jerk of the body on the y axis std()
+######Angular velocity jerk of the body on the z axis std()
 ###
 ######Frequency domain on the body acceleration on the x axis mean()
 ######Frequency domain on the body acceleration on the y axis mean()
@@ -129,26 +135,26 @@ Some information on the variable including:
 ######Frequency domain on the body acceleration on the y axis std()
 ######Frequency domain on the body acceleration on the z axis std()
 ###
-######Frequency domain of the angular volecity jerk of the body on the x axis mean()
-######Frequency domain of the angular volecity jerk of the body on the y axis mean()
-######Frequency domain of the angular volecity jerk of the body on the z axis mean()
-######Frequency domain of the angular volecity jerk of the body on the x axis std()
-######Frequency domain of the angular volecity jerk of the body on the y axis std()
-######Frequency domain of the angular volecity jerk of the body on the z axis std()
+######Frequency domain of the angular velocity jerk of the body on the x axis mean()
+######Frequency domain of the angular velocity jerk of the body on the y axis mean()
+######Frequency domain of the angular velocity jerk of the body on the z axis mean()
+######Frequency domain of the angular velocity jerk of the body on the x axis std()
+######Frequency domain of the angular velocity jerk of the body on the y axis std()
+######Frequency domain of the angular velocity jerk of the body on the z axis std()
 ###
-######Frequency domain of the body angular volecity on the x axis mean()
-######Frequency domain of the body angular volecity on the y axis mean()
-######Frequency domain of the body angular volecity on the z axis mean()
-######Frequency domain of the body angular volecity on the x axis std()
-######Frequency domain of the body angular volecity on the y axis std()
-######Frequency domain of the body angular volecity on the z axis std()
+######Frequency domain of the body angular velocity on the x axis mean()
+######Frequency domain of the body angular velocity on the y axis mean()
+######Frequency domain of the body angular velocity on the z axis mean()
+######Frequency domain of the body angular velocity on the x axis std()
+######Frequency domain of the body angular velocity on the y axis std()
+######Frequency domain of the body angular velocity on the z axis std()
 
 ##Sources
 1. "features.txt" from the zip file of the raw data. - "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 2. For the code book template - "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
 
 ##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+If you used any code in the code book that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
 
 
 Assumptions:
@@ -156,11 +162,11 @@ You have downloaded the needed files from: "https://d396qusza40orc.cloudfront.ne
 You have also extracted the files from the downloaded zip file.
 NOTE: Due to my knowledge of R programming (which is novice) some of the more simpler tasks (i.e. which data from the combined data set should be used to determine the average of the mean() and std() ) to determine which rows of data to use were done manually.  
 
-The prerequisit for the assignment is as follows:
+The prerequisite for the assignment is as follows:
 "You should create one R script called run_analysis.R that does the following"
-You will find the R script in the same directory in which you found this codebook.
+You will find the R script in the same directory in which you found this code book.
 
-The first step of the process was to download the data locally.  This allowed me to be able to work on this effort while not neededing to be connected to the Internet.
+The first step of the process was to download the data locally.  This allowed me to be able to work on this effort while not needing to be connected to the Internet.
 
 The first step requested is:
 "Merges the training and the test sets to create one data set"
