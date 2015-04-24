@@ -71,26 +71,22 @@ Subject - This is the ID of the subject who performed the related activities.  I
 ###Column 2 (Activity)
 Activity - Six (6) activities were preformed by each subject several times. The activities consisted of: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying.
 
-### Remaining Variables 
+### Remaining Column Variables 
 The remaining variables contains the data relative to the subject and activity performed, and can be broken down by the following:
 
 mean() and std() - This is the mean and standard deviation of the accumulative information for the specific activity per subject.
 
 x axis, y axis, and z axis - this is used to denote the signals from the X, Y, and Z direction of the measurement.
 
-Body and Gravity acceleration - The subjects body acceleration captured from the devices accelerometer, and separated into body and gravity.
+Body and Gravity acceleration - The subjects body acceleration captured from the devices accelerometer, and separated into body and gravity acceleration signals.
 
+Jerk - The subjects jerking motion was also captured by capturing the bodies linear acceleration and angular velocity signals.
 
-
+Frequency domain - The Fast Fourier Transform (FFT) were applied to several of the signals
 
 ###Variable 1 (repeat this section for all variables in the dataset)
 Short description of what the variable describes.
  
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
  
 ### 
 ######Body acceleration on the x axis mean()
@@ -153,42 +149,5 @@ Some information on the variable including:
 1. "features.txt" from the zip file of the raw data. - "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 2. For the code book template - "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41"
 
-##Annex
-If you used any code in the code book that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
-
-
-Assumptions:
-You have downloaded the needed files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-You have also extracted the files from the downloaded zip file.
-NOTE: Due to my knowledge of R programming (which is novice) some of the more simpler tasks (i.e. which data from the combined data set should be used to determine the average of the mean() and std() ) to determine which rows of data to use were done manually.  
-
-The prerequisite for the assignment is as follows:
-"You should create one R script called run_analysis.R that does the following"
-You will find the R script in the same directory in which you found this code book.
-
-The first step of the process was to download the data locally.  This allowed me to be able to work on this effort while not needing to be connected to the Internet.
-
-The first step requested is:
-"Merges the training and the test sets to create one data set"
-Within the zip file there will be two folders labeled "train" and "test". In each folder (respectively) there are files labeled, "X_train.txt", "y_train.txt" (in the "train" folder), and"X_test.txt", "y_test.txt" (in the "test" folder)
-
-I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity for each mean() and std() columns.
-
-I created columns for the Subject, Activity, and the various mean() and std() columns that contain the average of the Subject's activity.
-
-
-
-The measurements (e.g. "Body acceleration on the x axis mean...") are the value of OHOT?? - need to finish
-Here are the column names and their description:
-*Subject - This is the number of the person who did the related activities.  Their names were not given in the original data set.
-*Activity - There were six (6) activities which were performed by each subject
-*Body acceleration on the x,y,z axis mean() - is the mean of all of the observations collected relative to the subject and the activity performed.
-*Body acceleration on the x,y,z axis std() - is the standard deviation of all of the observations collected relative to the subject and the activity performed.
-
 ***Pleae note that further information about this data is contained within the "features.txt" file located within the original downloaded dataset
-
-
-
-Body acceleration on the x,y,z axis std() - 
-
 ```
