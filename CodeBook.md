@@ -67,7 +67,7 @@ Subject Activity           Body acceleration on the x axis mean()
 Subject - This is the ID of the subject who performed the related activities.  It is an integer value.  There were 30 subjects performing the activities.
 
 ###Column 2 (Activity)
-Activity - Six (6) activities were preformed by each subject several times. The activities consisted of: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying.
+Activity - Six (6) activities were preformed by each subject several times. The activities consisted of: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying. It is a factor value
 
 ### Remaining Column Variables Description
 The remaining variables contains the data relative to the subject and activity performed, and can be broken down by the following:
@@ -83,6 +83,7 @@ Jerk - The subjects jerking motion was also captured by capturing the bodies lin
 Frequency domain - The Fast Fourier Transform (FFT) were applied to several of the signals
 
 ###Variable Names (pertaining to the Variable Descriptions above)
+The variable are all numeric values, and every subject performed and captured data for all of the activities.
 ### 
 ######Body acceleration on the x axis mean()
 ######Body acceleration on the y axis mean()
