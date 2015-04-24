@@ -28,7 +28,6 @@ and unzip the file which will create a structure of several folders and files.
 Once the file structure is in place, you must set your working directory to the directory containing the "train" and "test" directories.
 You will need to download the "run_analysis.R" and run it through R. At the completion of running the program, a file called, "tidydata.txt" will be created in your working directory.
 
-## FINISH FROM HERE
 ##Descriptions of the variables from the raw data and in the tidy data set
 ###raw data information:
 As the data created in the tidy data set came from the original source, I thought it important to include the description of the "features.txt" file within this document.
